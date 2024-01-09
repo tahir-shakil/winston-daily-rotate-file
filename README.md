@@ -1,0 +1,1 @@
+# winston-daily-rotate-file

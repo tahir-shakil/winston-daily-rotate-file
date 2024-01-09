@@ -1,0 +1,119 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "winston-daily-rotate-file@^3.2.3",
+        "scope": null,
+        "escapedName": "winston-daily-rotate-file",
+        "name": "winston-daily-rotate-file",
+        "rawSpec": "^3.2.3",
+        "spec": ">=3.2.3 <4.0.0",
+        "type": "range"
+      },
+      "/var/www/cw-ssh/eventservice"
+    ]
+  ],
+  "_from": "winston-daily-rotate-file@>=3.2.3 <4.0.0",
+  "_id": "winston-daily-rotate-file@3.2.3",
+  "_inCache": true,
+  "_location": "/winston-daily-rotate-file",
+  "_nodeVersion": "8.9.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/winston-daily-rotate-file_3.2.3_1529711175899_0.45917842315990676"
+  },
+  "_npmUser": {
+    "name": "mattberther",
+    "email": "matt@berther.io"
+  },
+  "_npmVersion": "5.10.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "winston-daily-rotate-file@^3.2.3",
+    "scope": null,
+    "escapedName": "winston-daily-rotate-file",
+    "name": "winston-daily-rotate-file",
+    "rawSpec": "^3.2.3",
+    "spec": ">=3.2.3 <4.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/winston-daily-rotate-file/-/winston-daily-rotate-file-3.2.3.tgz",
+  "_shasum": "9f80e7a421ab32b073c1217bae62e762001197d6",
+  "_shrinkwrap": null,
+  "_spec": "winston-daily-rotate-file@^3.2.3",
+  "_where": "/var/www/cw-ssh/eventservice",
+  "author": {
+    "name": "Charlie Robbins",
+    "email": "charlie.robbins@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/winstonjs/winston-daily-rotate-file/issues"
+  },
+  "dependencies": {
+    "file-stream-rotator": "^0.2.1",
+    "semver": "^5.5.0",
+    "triple-beam": "github:tahir-shakil/triple-beam#main",
+    "winston-compat": "github:tahir-shakil/winston-compat#0.1.4",
+    "winston-transport": "github:tahir-shakil/winston-transport#4.2.0"
+  },
+  "description": "A transport for winston which logs to a rotating file each day.",
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "^4.19.1",
+    "eslint-config-xo": "^0.19.0",
+    "mocha": "^5.1.1",
+    "moment": "^2.19.1",
+    "rimraf": "2.5.2"
+  },
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-BOvmvQH2WaiexOjzj14YNHSc18IDyZJ9t4pMsbTERjpjMltoBVijM8DDJJPr2jSqELSNnbgGPBk3kDQSRgOAtQ==",
+    "shasum": "9f80e7a421ab32b073c1217bae62e762001197d6",
+    "tarball": "https://registry.npmjs.org/winston-daily-rotate-file/-/winston-daily-rotate-file-3.2.3.tgz",
+    "fileCount": 12,
+    "unpackedSize": 26649,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbLYpHCRA9TVsSAnZWagAA4swP/jZtsaJhAdlHXVO+Lfx8\n9WM4e4aup7BLeN6rjcY/pL4SbjPIvSUgF27eKvpI/o/h8HbErR9rTnTzEzdH\nXHbYKr2rRE/+YrWqJF5YJ4g3J874PuEs6QmXpITphXTxV9Dz7SEGfAae/6KI\nBD+nQYc1tfpe1SdPkLwSvnLwB9UJ38vpGe/YlqZaPg66hJiMlhtXOjX2eDlg\nKGJ6Xo5GRO7MXTGMjmwBQQteXeuuGn6qPvZ9rVbd0p50jQZNSoWwJe1UoRje\nhJ3LdlYm9Rc1a7p+P90JMjXQ38JOhtbVShGDrUVMaMBx3LqMTdxMcpJihj67\nwHKQujnnkjAzJPFdGTQgIiezVhYbyIgRaNDQBQP5qxgSCFX+oGm/c6cHzyeO\ntE5sysKsO6/KIAJ2oXuss/zzKEuSpIyTafLCZ2vujdxS7bPswaJpcZ0dtHmX\ngI7OwQx6oJ9vxbIhaQAbpRLpcO3Hbx/pM4yis2A8N+XKxa1yXYHyf7PcJ3pd\nwr8pV4RdFPG0KvN2OfLTjkgIDQHN/dMrPiVcegoPUBqIxJqxQu2wABe0nM1u\nA5R0Rn6fI7SQRGUpYO3PJO91vW0OcNe5sgXRLvRPx+appKFcVQ5m7mvyw0U2\nmIG9WcbkTG6Br7qf/5iye5SgiuX+53Ewxtqjmqtk6Ne1MGCAQGMJ45QF1uYr\nSMnw\r\n=50lM\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "gitHead": "a9d0899b69ad4c3c9b746b3ac247e0530ae59da1",
+  "homepage": "https://github.com/winstonjs/winston-daily-rotate-file#readme",
+  "keywords": [
+    "winston",
+    "daily-rotate-file",
+    "log-rotate",
+    "logrotate"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "indexzero",
+      "email": "charlie.robbins@gmail.com"
+    },
+    {
+      "name": "mattberther",
+      "email": "matt@berther.io"
+    }
+  ],
+  "name": "winston-daily-rotate-file",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "winston": "^2 || ^3"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/winstonjs/winston-daily-rotate-file.git"
+  },
+  "scripts": {
+    "postversion": "git push && git push --tags && npm publish",
+    "preversion": "npm test",
+    "test": "mocha && eslint ."
+  },
+  "version": "3.2.3"
+}
